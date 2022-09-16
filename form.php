@@ -1,6 +1,6 @@
 <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        $to = "vasha@pochta.ru";    // Куда идет письмо
+        $to = "sofia-sofa99@bkru";    // Куда идет письмо
         $from = "info@my-site.ru";    // От кого идет письмо
         $name = $_POST['name-at'];
         $email = $_POST['email-at'];

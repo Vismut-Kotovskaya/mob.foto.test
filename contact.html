@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylecontact.css">
+    <script src="https://kit.fontawesome.com/b16553ecb5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu">
+                <ul class="menu touch">
+                    <li><a class="logo" href="index.html">mob.foto</a></li>
+                    <li><a href="#">Портрет</a></li>
+                    <li><a href="#">Пейзаж</a></li>
+                    <li><a href="#">Street</a></li>
+                    <li><a href="#">Staged</a></li>
+                    <li><a class="contacts" href="contact.html">Контакты</a></li>
+                    <li><a href="#">советы</a></li>
+                    <li><a href="#">соцсети</a></li>
+                </ul>
+                <span class="toggle">☰</span>
+
+            </label>
+        </nav>
+    </header>
+    <main>
+        <div class="forma">
+            <div class="form-at">
+                <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                    <input class="input-at" type="text" name="name-at" placeholder="Ваше имя" />
+                    <span class="focus-input-at"></span>
+                </div>
+                <div class="validate-input-at w-50" data-validate="Обязательное поле">
+                    <input class="input-at" type="text" name="email-at" placeholder="Ваш телефон или email" />
+                    <span class="focus-input-at"></span>
+                </div>
+                <div class="validate-input-at" data-validate="Обязательное поле">
+                    <textarea class="input-at" name="message-at" placeholder="Ваше сообщение"></textarea>
+                    <span class="focus-input-at"></span>
+                </div>
+                <input checked="checked" class="input-at" id="checkbox-at" type="checkbox" name="checkbox-at" onchange="document.getElementById('submit-at').disabled = !this.checked;" />
+                <label for="checkbox-at">
+                    Настоящим подтверждаю, что я ознакомлен и согласен с <a href="#rules">пользовательским соглашением</a>
+                </label> 
+                <input type="hidden" name="subject-at" value="Тема формы">
+                <button id="submit-at" class="form-at-btn">Отправить</button>
+            </div>
+            <div class="result-at"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-block">
+                <div class="footer-logo">
+                    <h3>MOB.FOTO</h3>
+                    <h3>MOBILE FOTO</h3>
+                </div>
+                <div class="footer-search">
+                    <input type="text" placeholder="ghjkllkjbhjk">
+                </div>
+            </div>
+            <hr>
+            <div class="footer-links">
+                <div class="foooter-links-logo">
+                    <h4>MOB.FOTO</h4>
+                </div>
+                <div class="footer-link">
+                    <p>kjhgvhbnjmlm</p>
+                    <a href="#">sdfghj</a>
+                    <a href="#">sdfghj</a>
+                </div>
+                <div class="footer-link">
+                    <p>kjhgvhbnjmlm</p>
+                    <a href="#">sdfghj</a>
+                    <a href="#">sdfghj</a>
+                </div>
+                <div class="footer-link">
+                    <p>kjhgvhbnjmlm</p>
+                    <a href="#">sdfghj</a>
+                    <a href="#">sdfghj</a>
+                </div>
+                <div class="footer-link">
+                    <p>kjhgvhbnjmlm</p>
+                    <a href="#">sdfghj</a>
+                    <a href="#">sdfghj</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
